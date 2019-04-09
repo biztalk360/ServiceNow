@@ -1,0 +1,26 @@
+D:\Source\Kovai.BizTalk360\development\Kovai.BizTalk360\Kovai.BizTalk360.Plugins\Notifier\B360.Notifier.ServiceNowNotification\bin\Debug\B360.Notifier.ServiceNowNotification.dll.config
+D:\Source\Kovai.BizTalk360\development\Kovai.BizTalk360\Kovai.BizTalk360.Plugins\Notifier\B360.Notifier.ServiceNowNotification\bin\Debug\B360.Notifier.ServiceNowNotification.dll
+D:\Source\Kovai.BizTalk360\development\Kovai.BizTalk360\Kovai.BizTalk360.Plugins\Notifier\B360.Notifier.ServiceNowNotification\bin\Debug\B360.Notifier.ServiceNowNotification.pdb
+D:\Source\Kovai.BizTalk360\development\Kovai.BizTalk360\Kovai.BizTalk360.Plugins\Notifier\B360.Notifier.ServiceNowNotification\bin\Debug\B360.Notifier.Common.dll
+D:\Source\Kovai.BizTalk360\development\Kovai.BizTalk360\Kovai.BizTalk360.Plugins\Notifier\B360.Notifier.ServiceNowNotification\bin\Debug\Newtonsoft.Json.dll
+D:\Source\Kovai.BizTalk360\development\Kovai.BizTalk360\Kovai.BizTalk360.Plugins\Notifier\B360.Notifier.ServiceNowNotification\bin\Debug\System.Net.Http.Formatting.dll
+D:\Source\Kovai.BizTalk360\development\Kovai.BizTalk360\Kovai.BizTalk360.Plugins\Notifier\B360.Notifier.ServiceNowNotification\bin\Debug\log4net.dll
+D:\Source\Kovai.BizTalk360\development\Kovai.BizTalk360\Kovai.BizTalk360.Plugins\Notifier\B360.Notifier.ServiceNowNotification\bin\Debug\B360.Notifier.Common.pdb
+D:\Source\Kovai.BizTalk360\development\Kovai.BizTalk360\Kovai.BizTalk360.Plugins\Notifier\B360.Notifier.ServiceNowNotification\bin\Debug\Newtonsoft.Json.xml
+D:\Source\Kovai.BizTalk360\development\Kovai.BizTalk360\Kovai.BizTalk360.Plugins\Notifier\B360.Notifier.ServiceNowNotification\bin\Debug\System.Net.Http.Formatting.xml
+D:\Source\Kovai.BizTalk360\development\Kovai.BizTalk360\Kovai.BizTalk360.Plugins\Notifier\B360.Notifier.ServiceNowNotification\obj\Debug\B360.Notifier.ServiceNowNotification.csprojAssemblyReference.cache
+D:\Source\Kovai.BizTalk360\development\Kovai.BizTalk360\Kovai.BizTalk360.Plugins\Notifier\B360.Notifier.ServiceNowNotification\obj\Debug\B360.Notifier.ServiceNowNotification.csproj.CoreCompileInputs.cache
+D:\Source\Kovai.BizTalk360\development\Kovai.BizTalk360\Kovai.BizTalk360.Plugins\Notifier\B360.Notifier.ServiceNowNotification\obj\Debug\B360.Notifier.ServiceNowNotification.csproj.CopyComplete
+D:\Source\Kovai.BizTalk360\development\Kovai.BizTalk360\Kovai.BizTalk360.Plugins\Notifier\B360.Notifier.ServiceNowNotification\obj\Debug\B360.Notifier.ServiceNowNotification.dll
+D:\Source\Kovai.BizTalk360\development\Kovai.BizTalk360\Kovai.BizTalk360.Plugins\Notifier\B360.Notifier.ServiceNowNotification\obj\Debug\B360.Notifier.ServiceNowNotification.pdb
+D:\GitHub Repository\ServiceNow\ServiceNow\bin\Debug\B360.Notifier.ServiceNowNotification.dll
+D:\GitHub Repository\ServiceNow\ServiceNow\bin\Debug\B360.Notifier.ServiceNowNotification.pdb
+D:\GitHub Repository\ServiceNow\ServiceNow\bin\Debug\B360.Notifier.Common.dll
+D:\GitHub Repository\ServiceNow\ServiceNow\bin\Debug\log4net.dll
+D:\GitHub Repository\ServiceNow\ServiceNow\bin\Debug\Newtonsoft.Json.xml
+D:\GitHub Repository\ServiceNow\ServiceNow\bin\Debug\System.Net.Http.Formatting.xml
+D:\GitHub Repository\ServiceNow\ServiceNow\obj\Debug\B360.Notifier.ServiceNowNotification.csprojAssemblyReference.cache
+D:\GitHub Repository\ServiceNow\ServiceNow\obj\Debug\B360.Notifier.ServiceNowNotification.csproj.CoreCompileInputs.cache
+D:\GitHub Repository\ServiceNow\ServiceNow\obj\Debug\B360.Notifier.ServiceNowNotification.csproj.CopyComplete
+D:\GitHub Repository\ServiceNow\ServiceNow\obj\Debug\B360.Notifier.ServiceNowNotification.dll
+D:\GitHub Repository\ServiceNow\ServiceNow\obj\Debug\B360.Notifier.ServiceNowNotification.pdb

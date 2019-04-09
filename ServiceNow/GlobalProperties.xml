@@ -1,0 +1,22 @@
+﻿<prop:GlobalProperties xmlns:bsd="http://www.biztalk360.com/alarms/notification/basetypes"
+                       xmlns="http://www.biztalk360.com/alarms/notification/basetypes"
+                       xmlns:prop="http://www.biztalk360.com/alarms/notification/properties">
+  <Section Name="servicenow-instance" DisplayName="ServiceNow Instance">
+    <TextBox Name="servicenow-url" DisplayName="ServiceNow URL" IsMandatory="true" Tooltip="The instance where the incidents should be created." DefaultValue="https://dev.service-now.com/" Type="text" />
+  </Section>
+  <Section Name="authentication" DisplayName="Authentication Settings">
+    <TextBox Name="username" DisplayName="Username" IsMandatory="true" Type="text"/>
+    <TextBox Name="password" DisplayName="Password" IsMandatory="true" Type="password" />
+  </Section>
+  <Section Name="proxy-settings" DisplayName="Proxy Settings">
+    <CheckBox Name="use-proxy" DisplayName="Use Proxy" IsMandatory="true"  DefaultValue="false" Disabled="false" />
+    <Group Name="proxy-settings-config" DisplayName="Proxy Settings (Optional)"  DependencyType="Enable" DependencyField="use-proxy">
+      <TextBox Name="server-name" DisplayName="Server Name" IsMandatory="false" Type="text" Disabled="false"/>
+      <TextBox Name="domain" DisplayName="Domain Name" IsMandatory="false"  Type="text" Disabled="false"/>
+      <TextBox Name="port" DisplayName="Port Name" IsMandatory="false" Type="text" Disabled="false"/>
+      <TextBox Name="user-name" DisplayName="User Name" IsMandatory="false" Type="text" Disabled="false"/>
+      <TextBox Name="proxy-password" DisplayName="Password" IsMandatory="false" Type="password" Disabled="false"/>
+      <CheckBox Name="use-default-credentials" DisplayName="Use Default Credentials" DefaultValue="false" Disabled="false"/>
+    </Group>
+  </Section>
+</prop:GlobalProperties>
