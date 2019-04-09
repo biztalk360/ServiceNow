@@ -75,24 +75,8 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>REM Create Directories
-if not exist "$(SolutionDir)Kovai.BizTalk360.SL\Server\BizTalk360.Web\Notifier" mkdir "$(SolutionDir)Kovai.BizTalk360.SL\Server\BizTalk360.Web\Notifier"
-if not exist "$(SolutionDir)Kovai.BizTalk360.InfoTrack\Kovai.BizTalk360.InfoTrack.Console\$(OutDir)Notifier" mkdir "$(SolutionDir)Kovai.BizTalk360.InfoTrack\Kovai.BizTalk360.InfoTrack.Console\$(OutDir)Notifier"
-if not exist "$(SolutionDir)Kovai.BizTalk360.InfoTrack\Kovai.BizTalk360.InfoTrack.Service\$(OutDir)Notifier" mkdir "$(SolutionDir)Kovai.BizTalk360.InfoTrack\Kovai.BizTalk360.InfoTrack.Service\$(OutDir)Notifier"
-if not exist "$(SolutionDir)SolutionItems\$(OutDir)Notifier" mkdir "$(SolutionDir)SolutionItems\$(OutDir)Notifier"
-
-REM Copy Notifier to 3 different places
-copy "$(TargetDir)$(TargetName).dll" "$(SolutionDir)Kovai.BizTalk360.SL\Server\BizTalk360.Web\Notifier\$(TargetName).dll"
-copy "$(TargetDir)$(TargetName).pdb" "$(SolutionDir)Kovai.BizTalk360.SL\Server\BizTalk360.Web\Notifier\$(TargetName).pdb"
-
-copy "$(TargetDir)$(TargetName).dll" "$(SolutionDir)Kovai.BizTalk360.InfoTrack\Kovai.BizTalk360.InfoTrack.Console\$(OutDir)Notifier\$(TargetName).dll"
-copy "$(TargetDir)$(TargetName).pdb" "$(SolutionDir)Kovai.BizTalk360.InfoTrack\Kovai.BizTalk360.InfoTrack.Console\$(OutDir)Notifier\$(TargetName).pdb"
-
-copy "$(TargetDir)$(TargetName).dll" "$(SolutionDir)Kovai.BizTalk360.InfoTrack\Kovai.BizTalk360.InfoTrack.Service\$(OutDir)Notifier\$(TargetName).dll"
-copy "$(TargetDir)$(TargetName).pdb" "$(SolutionDir)Kovai.BizTalk360.InfoTrack\Kovai.BizTalk360.InfoTrack.Service\$(OutDir)Notifier\$(TargetName).pdb"
-
-copy "$(TargetDir)$(TargetName).dll" "$(SolutionDir)SolutionItems\Notifier\$(TargetName).dll"
-copy "$(TargetDir)$(TargetName).pdb" "$(SolutionDir)SolutionItems\Notifier\$(TargetName).pdb"</PostBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
