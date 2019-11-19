@@ -1,0 +1,20 @@
+﻿<prop:AlarmProperties xmlns="http://www.biztalk360.com/alarms/notification/basetypes"
+                      xmlns:prop="http://www.biztalk360.com/alarms/notification/properties"
+                      Name="alarm-settings"
+                      DisplayName="Alarm Settings">
+  <TextBox Name="short-description" DisplayName="Short Description" IsMandatory="true" Disabled="false" Tooltip="Short Description" DefaultValue="" Type="text" MaxLength="1000" />
+
+  <TextBox Name="impact" DisplayName="Impact" IsMandatory="true" Disabled="false" Tooltip="Impact" DefaultValue="low" Type="text" MaxLength="1000" />
+
+  <TextBox Name="urgency" DisplayName="Urgency" IsMandatory="true" Disabled="false" Tooltip="Urgency" DefaultValue="low" Type="text" MaxLength="1000" />
+
+  <TextBox Name="assignment-group" DisplayName="Assignment Group" IsMandatory="true" Disabled="false" Tooltip="Assignment Group" DefaultValue="OCIO" Type="text" MaxLength="1000" />
+
+  <TextBox Name="category" DisplayName="Category" IsMandatory="false" Disabled="false" Tooltip="category" DefaultValue="" Type="text" MaxLength="1000" />
+
+  <TextBox Name="subcategory" DisplayName="Subcategory" IsMandatory="false" Disabled="false" Tooltip="Subcategory" DefaultValue="" Type="text" MaxLength="1000" />
+
+  <TextBox Name="configuration-item" DisplayName="Configuration Item" IsMandatory="false" Disabled="false" Tooltip="Configuration Item" DefaultValue="" Type="text" MaxLength="1000" />
+
+  <TextBox Name="additional-comments" DisplayName="Additional Comments" IsMandatory="false" Disabled="false" Tooltip="additional comments" DefaultValue="" Type="text" MaxLength="1000" />
+</prop:AlarmProperties>

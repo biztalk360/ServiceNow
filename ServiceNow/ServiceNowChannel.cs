@@ -162,7 +162,7 @@ namespace B360.Notifier.ServiceNowNotification
                     Proxy = proxy,
                     UseProxy = useProxy
                 };
-
+                ServicePointManager.SecurityProtocol = SecurityProtocolType.Ssl3 | SecurityProtocolType.Tls | SecurityProtocolType.Tls11 | SecurityProtocolType.Tls12;
                 using (HttpClient httpClient = new HttpClient(handler))
                 {
                     httpClient.BaseAddress = new Uri(uriString);
